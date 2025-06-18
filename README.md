@@ -79,7 +79,7 @@ Generate synthesis report:
 
 - Vivado 2024.1 or later.
 
-## Run imulation
+## Run simulation
 
 Make sure dependecy for simulation is satisfied
 
