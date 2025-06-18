@@ -9,7 +9,7 @@ This repository contains the SystemVerilog source code for an AXI4-Stream sparse
 ## Features
 
 - **AXI4-Stream Compliant**: Fully adheres to the AXI4-Stream protocol. Supported fields: TDATA, TVALID, TREADY, TKEEP, TLAST.
-- **Configurable Parameters**: Supports parameterized input and output bus width.
+- **Configurable Parameters**: Supports parameterized input and output bus widths that do not have to be powers of two; the input width can differ from the output width.
 - **High Performance**: Designed for high Fmax.
 - **Resource Efficient**: Using Banyan Network inside, optimized for FPGA resource utilization.
 
